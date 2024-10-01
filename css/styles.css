@@ -240,9 +240,6 @@ header li {
   font-size: 36px;
   line-height: 40px;
   letter-spacing: 2%;
-  background-color: #f4f4fd;
-  color: #2e2f42;
-  height: 732px;
 }
 
 .our-team {
@@ -250,6 +247,9 @@ header li {
 }
 
 .section-3-general {
+  height: 732px;
+  color: #2e2f42;
+  background-color: #f4f4fd;
   display: flex;
   gap: 32px;
 }
@@ -353,14 +353,14 @@ header li {
 }
 
 .section-4-text {
+  width: 296px;
+  height: 96px;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
   color: #f4f4fd;
   position: absolute;
-  width: 296px;
-  height: 96px;
   left: 32px;
   top: 40px;
 }
@@ -775,3 +775,67 @@ footer p {
   cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+
+  .section-1 {
+    width: 320px;
+    height: 432px;
+    position: relative;
+    left: 25%;
+  }
+
+  .section-1-button {
+    display: flex;
+    position: absolute;
+    left: 25%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section-2-general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .section-2-icon-backgrounds {
+    display: flex;
+  }
+
+  .section-2-icons {
+    display: none;
+  }
+
+  .section-3-general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    height: 2233px;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+
+  .section-4 ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer {
+    width: 320px;
+    height: 664px;
+    border: 1px, solid, #2E2F42;
+    position: relative;
+    left: 55%;
+  }
+
+  footer p {
+    text-align: center;
+  }
+
+  .footer {
+    display: block;
+  }
+}
