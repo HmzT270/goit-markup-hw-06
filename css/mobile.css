@@ -1,11 +1,11 @@
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   header {
     width: 100%;
     height: 56px;
   }
 
   .header-list {
-    width: 320px;
+    width: 100%;
   }
 
   .container {
@@ -19,7 +19,6 @@
   }
 
   .section-1 {
-    max-width: 320px;
     width: 100%;
     height: 432px;
     font-weight: 700;
@@ -32,7 +31,6 @@
   }
 
   .section-1-text {
-    max-width: 216px;
     width: 100%;
     height: 160px;
   }
@@ -52,14 +50,10 @@
   }
 
   .section-2-title {
-    max-width: 288px;
-    width: 100%;
     height: 24px;
   }
 
   .section-2-text {
-    max-width: 288px;
-    width: 100%;
     height: 72px;
   }
 
@@ -72,13 +66,10 @@
   }
 
   .section-3 {
-    max-width: 320px;
-    width: 100%;
     height: 2233px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 auto;
   }
 
   .our-team {
@@ -91,18 +82,15 @@
   }
 
   .section-4 ul {
-    max-width: 288px;
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   footer {
-    max-width: 320px;
-    width: 100%;
     height: 664px;
     border: 1px, solid, #2e2f42;
+    padding: 50px;
     margin: 0 auto;
   }
 
@@ -111,9 +99,12 @@
   }
 
   .web-studio-text {
-    flex-direction: column;
-    align-items: center;
-    display: flex;
+    text-align: start;
+  }
+
+  .footer-list {
+    text-align: center;
+    margin: 0 auto;
   }
 
   .social-media-webside {
@@ -124,15 +115,23 @@
   }
 
   .modal-window-footer-container {
+    width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    text-align: center;
+  }
+  
+  .footer-email {
+    height: 40px;
   }
 
-  .footer-email {
-    width: 284px;
-    height: 40px;
-    display: block;
+  .subscribe-button {
+    left: 0px;
+  }
+
+  .icon-paper-plane {
+    top: -10px;
+    right: -30px;
   }
 
   .footer-form {
