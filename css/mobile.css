@@ -87,6 +87,21 @@
     align-items: center;
   }
 
+  .section-4 img {
+    max-width: 288px;
+    width: 100%;
+  }
+
+  .section-4-hover {
+    max-width: 288px;
+    width: 100%;
+  }
+
+  .section-4-text {
+    max-width: 200px;
+    width: 100%;
+  }
+
   footer {
     height: 664px;
     border: 1px, solid, #2e2f42;
@@ -127,10 +142,11 @@
 
   .subscribe-button {
     left: 0px;
+    top: 40px;
   }
 
   .icon-paper-plane {
-    top: -10px;
+    top: 10px;
     right: -30px;
   }
 
