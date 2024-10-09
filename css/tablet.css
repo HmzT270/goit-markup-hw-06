@@ -1,7 +1,7 @@
 @media screen and (min-width: 767px) and (max-width: 1158px) {
   header {
     width: 100%;
-    height: 56px;
+    height: 72px;
   }
 
   .header-list {
@@ -11,6 +11,11 @@
   .container {
     max-width: 768px;
     width: 100%;
+  }
+
+  .address{
+    display: block;
+    margin: -10px;
   }
 
   .section-1 {
