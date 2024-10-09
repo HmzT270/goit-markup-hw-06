@@ -13,6 +13,10 @@
     width: 100%;
   }
 
+  .mobile-menu {
+    margin: 0 auto;
+  }
+  
   .page-menu-list,
   .address {
     display: none;
