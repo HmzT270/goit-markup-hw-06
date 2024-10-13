@@ -66,7 +66,7 @@ header nav li a {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 header li {
@@ -78,7 +78,7 @@ header li {
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
 }
@@ -88,7 +88,7 @@ header li {
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   font-family: "Raleway", sans-serif;
 }
 
@@ -102,16 +102,15 @@ header li {
   font-weight: 500px;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   display: flex;
-  position: relative;
 }
 
 .page-menu-1 {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   margin-right: 10px;
   position: relative;
   border: none;
@@ -139,7 +138,7 @@ header li {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
   margin-right: 10px;
   transition-duration: 250ms;
@@ -162,7 +161,7 @@ header li {
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -190,7 +189,7 @@ header li {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
@@ -212,7 +211,7 @@ header li {
 
 .section-2-icons {
   margin-bottom: 10px;
-  border: 1px, solid #8e8f99;
+  border: 1px solid #8e8f99;
   border-radius: 2%;
 }
 
@@ -228,7 +227,7 @@ header li {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 .section-2-text {
@@ -237,7 +236,7 @@ header li {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -245,7 +244,7 @@ header li {
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   background-color: #f4f4fd;
 }
 
@@ -265,7 +264,7 @@ header li {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 .section-3-images {
@@ -285,7 +284,7 @@ header li {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -312,7 +311,7 @@ header li {
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -362,7 +361,7 @@ header li {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
   position: absolute;
   left: 32px;
@@ -381,14 +380,14 @@ header li {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 .section-4-border p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
   padding-top: 10px;
 }
@@ -408,7 +407,7 @@ footer a {
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: #f4f4fd;
   text-decoration: none;
 }
@@ -419,7 +418,7 @@ footer a {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
 
@@ -430,7 +429,7 @@ footer a {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #ffffff;
   margin: 0 auto;
 }
@@ -479,7 +478,7 @@ footer a {
 
 .icon-x {
   fill: #e7e9fc;
-  border: 1px, solid, #0000001a;
+  border: 1px solid #0000001a;
   border-radius: 100%;
   cursor: pointer;
   position: relative;
@@ -502,7 +501,7 @@ footer a {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
   position: relative;
@@ -553,7 +552,7 @@ footer a {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   color: #8e8f99;
   display: block;
   text-align: left;
@@ -566,7 +565,7 @@ footer a {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   color: #8e8f99;
   display: block;
   text-align: left;
@@ -580,8 +579,8 @@ footer a {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
-  border: 1px, solid, rgba(46, 47, 66, 0.4);
+  letter-spacing: 0.02em;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   outline: none;
   padding-left: 32px;
@@ -600,9 +599,9 @@ footer a {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   color: #75757580;
-  border: 1px, solid, rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   outline: none;
   position: relative;
@@ -623,7 +622,7 @@ footer a {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   color: #2e2f4266;
   position: relative;
 }
@@ -642,7 +641,7 @@ footer a {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  border: 1px, solid #2e2f4266;
+  border: 1px solid #2e2f4266;
   border-radius: 2px;
   cursor: pointer;
   transition-duration: 250ms;
@@ -667,7 +666,7 @@ footer a {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   color: #757575;
   position: absolute;
   top: 32px;
@@ -685,7 +684,7 @@ footer a {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   cursor: pointer;
   color: #ffffff;
   background-color: #4d5ae5;
@@ -720,7 +719,7 @@ footer a {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: white;
 }
 
@@ -734,10 +733,10 @@ footer a {
   font-weight: 400;
   font-size: 12px;
   line-height: 24px;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   color: white;
   background-color: transparent;
-  border: 1px, solid, white;
+  border: 1px solid white;
   border-radius: 4px;
   padding-left: 12px;
   position: relative;
@@ -748,7 +747,7 @@ footer a {
   font-weight: 400;
   font-size: 12px;
   line-height: 24px;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   width: 36px;
   height: 24px;
   color: white;
@@ -760,7 +759,7 @@ footer a {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   cursor: pointer;
   color: white;
   background-color: #4d5ae5;
